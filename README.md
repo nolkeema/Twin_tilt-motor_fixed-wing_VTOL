@@ -1,3 +1,5 @@
+# Twin Tilt VTOL UAV
+
 ## 1. Project Overview
 
 This project aims to design, build and test a twin tilt-motor fixed-wing UAV.
@@ -13,3 +15,7 @@ The main objectives of this project are:
 - To maintain stable fixed-wing flight after transition.
 - To investigate the effects of motor placement, centre of gravity, and tilt mechanism design on flight stability.
 - To provide a modular platform for future control-system and aerodynamic improvements.
+
+## 3. Repository Structure
+
+This repository is organized to separate design documentation, CAD assets, engineering calculations, simulations, hardware notes, images, and test records.
