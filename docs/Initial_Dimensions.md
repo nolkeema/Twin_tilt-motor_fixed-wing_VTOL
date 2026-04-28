@@ -26,8 +26,7 @@
 - **V_V** = 0.035
 - **S_V** = 0.0172 m^2
 - **AR_V** = 1.5
-- **Taper ratio** = 0.7
+- **Taper ratio_V** = 0.7
 - **b_V** = 160 mm
 - **Root chord_V** = 126 mm
-- **Tip chord** = 88 mm
-- 
+- **Tip chord_V** = 88 mm
