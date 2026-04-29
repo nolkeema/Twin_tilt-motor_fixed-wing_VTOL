@@ -35,12 +35,12 @@ inputs.CL_max = 1.3;             % [-] maximum lift coefficient
 
 % --- Main Wing ---
 inputs.MTOW = 2.0;               % [kg] maximum take-off mass
-inputs.wingLoading = 70.071429;  % [N/m^2] W/S
+inputs.wingLoading = 65;  % [N/m^2] W/S
 inputs.mainWing.AR = 7.0;        % [-] aspect ratio
-inputs.mainWing.taperRatio = 160 / 240;  % [-] taper ratio, c_t / c_r
+inputs.mainWing.taperRatio = 0.67;  % [-] taper ratio, c_t / c_r
 
 % --- Horizontal Stabilizer ---
-inputs.horizontalStabilizer.volumeCoefficient = 0.5;  % [-] V_H
+inputs.horizontalStabilizer.volumeCoefficient = 0.55;  % [-] V_H
 inputs.horizontalStabilizer.tailArmMAC = 4.0;         % [-] l_H / MAC
 % inputs.horizontalStabilizer.tailArm = 0.800;        % [m] optional direct l_H
 inputs.horizontalStabilizer.AR = 5.0;                 % [-] AR_H
@@ -290,7 +290,7 @@ function validate_against_document(results)
     tolerance = 0.012;
 
     fprintf('\n%s\n', repmat('-', 1, 72));
-    fprintf('  Verification against docs/Initial_Dimensions.md\n');
+    fprintf('  Verification against Initial_Dimensions.md\n');
     fprintf('%s\n', repmat('-', 1, 72));
     fprintf('  %-28s %12s %12s %10s %8s\n', ...
         'Parameter', 'Computed', 'Document', 'Diff %', 'Status');
