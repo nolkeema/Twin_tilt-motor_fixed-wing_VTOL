@@ -10,6 +10,7 @@
 - **Root chord**: 248 mm
 - **Tip chord**: 166 mm
 - **MAC**: 208 mm
+- **Twist**: -2 deg
 
 ## Horizontal Stabilizer
 - **l_H** = 4 MAC = 830 mm
